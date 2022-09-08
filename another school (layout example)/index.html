@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<title>Главная</title>
+</head>
+<body onload="digitalWatch()">
+<div class="container">
+	<header>
+		<!-- <a href="" class="login">Вход</a> -->
+		<!-- НЕ УСПЕЛ РЕАЛИЗОВАТЬ ВХОД НА САЙТ И ПОИСК ПО САЙТУ, 
+			ФОРМУ ДЛЯ ПОИСКА ОСТАВИЛ, ДЛЯ ЗАПОЛНЕНИЯ ПУСТОГО МЕСТА -->
+		<!-- вМЕСТО ПОИСКА ПО САЙТУ РЕАЛИЗОВАЛ ЦИФРОВЫЕ ЧАСЫ НА JS -->
+		<p id="digital_watch"></p>
+		<div class="search-box">
+		<form action="#">
+			<input type="text" id="search" placeholder="Поиск по сайту.." name="search">
+			<button type="submit">Поиск</button>
+		</form>
+		</div>
+	</header>
+	<div class="section">
+		<main class="index_main">
+			<div class="intro">
+				<img src="source/intro_logo.jpg" alt="ШМ" class="logo"></img>
+				<h1>Школа математики</h1>
+			</div>
+			<a class="content" href="materials_teaching.html">Электронные учебные материалы</a>
+			<a class="content" href="materials_cultural.html">Дополнительная учебная литература</a>
+			<a class="content" href="materials_information.html">Библиотека книг по математике</a>
+			<a class="content" href="materials_scientifically.html">Олимпиады и конкурсы для школьников</a>
+			<!-- <a class="content" href=""></a>
+			<a class="content" href=""></a> -->
+		</main>
+		<nav>
+			<div>Навигация по сайту</div>
+			<a href="/index.html" class="active">Главная</a>
+			<a href="/about.html">О себе</a>
+			<a href="/contacts.html">Контакты</a>
+			<a href="/class_journal.php">Классный журнал</a>
+		</nav>
+	</div>
+	<footer>
+		<div class="links"> 
+			<p>ССЫЛКИ</p>
+			<a href="http://www.edu.ru/">Федеральный портал Российское образование</a>
+			<a href="https://minobrnauki.gov.ru/">Министерство науки и высшего образования Российской Федерации</a>
+		</div>
+		<div class="adress">
+			<p>АДРЕС</p>
+			<p>Юридический адрес: ул. X, г. X, X район, Алтайский край, 658ХХХ</p>
+			<p>Фактический и почтовый адрес: ул. X, г. X, X район, Алтайский край, 658ХХХ</p>
+		</div>
+		<div class="about">
+			<p>ОПИСАНИЕ</p>
+			<p>Помогаем разобраться в математике, объясняем темы за пределами школьной программы, готовим к олимпиадам.</p>
+		</div>
+	</footer>
+</div>
+<script src="scripts/digitalWatch.js"></script>
+</body>
+</html>

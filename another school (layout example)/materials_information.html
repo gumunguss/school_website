@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<title>Библиотека книг по математике</title>
+</head>
+<body onload="digitalWatch()">
+<div class="container">
+	<header>
+		<!-- <a href="" class="login">Вход</a> -->
+		<!-- НЕ УСПЕЛ РЕАЛИЗОВАТЬ ВХОД НА САЙТ И ПОИСК ПО САЙТУ, 
+			ФОРМУ ДЛЯ ПОИСКА ОСТАВИЛ, ДЛЯ ЗАПОЛНЕНИЯ ПУСТОГО МЕСТА -->
+		<!-- вМЕСТО ПОИСКА ПО САЙТУ РЕАЛИЗОВАЛ ЦИФРОВЫЕ ЧАСЫ НА JS -->
+		<p id="digital_watch"></p>
+		<div class="search-box">
+		<form action="#">
+			<input type="text" id="search" placeholder="Поиск по сайту.." name="search">
+			<button type="submit">Поиск</button>
+		</form>
+		</div>
+	</header>
+	<div class="section">
+		<main class="other_main">
+			<div class="intro">
+				<img src="source/intro_logo.jpg" alt="ШМ" class="logo"></img>
+				<h1>Школа математики</h1>
+			</div>
+			<h2>Библиотека книг по математике</h2>
+			<a href="http://g117.ucoz.ru/index/ehlektronnye_biblioteki_dlja_shkolnikov/0-139">Электронные библиотеки для школьников.</a>
+			<a href="http://window.edu.ru/">Бесплатная электронная библиотека онлайн "Единое окно к образовательным ресурсам"</a>
+
+		</main>
+		<nav>
+			<div>Навигация по сайту</div>
+			<a href="/index.html">Главная</a>
+			<a href="/about.html">О себе</a>
+			<a href="/contacts.html">Контакты</a>
+			<a href="/class_journal.php">Классный журнал</a>
+		</nav>
+	</div>
+	<footer>
+		<div class="links"> 
+			<p>ССЫЛКИ</p>
+			<a href="http://www.edu.ru/">Федеральный портал Российское образование</a>
+			<a href="https://minobrnauki.gov.ru/">Министерство науки и высшего образования Российской Федерации</a>
+		</div>
+		<div class="adress">
+			<p>АДРЕС</p>
+			<p>Юридический адрес: ул. X, г. X, X район, Алтайский край, 658ХХХ</p>
+			<p>Фактический и почтовый адрес: ул. X, г. X, X район, Алтайский край, 658ХХХ</p>
+		</div>
+		<div class="about">
+			<p>ОПИСАНИЕ</p>
+			<p>Помогаем разобраться в математике, объясняем темы за пределами школьной программы, готовим к олимпиадам.</p>
+		</div>
+	</footer>
+</div>
+<script src="scripts/digitalWatch.js"></script>
+</body>
+</html>
